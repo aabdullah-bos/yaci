@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+mock = "*"
+tox = "*"
+jupyter = "*"
+pytest-cov = "*"
+
+[packages]
+six = "*"
+yaci = {editable = true,path = "."}
+pytest-cov = "*"
+
+[requires]
+python_version = "3.7"
