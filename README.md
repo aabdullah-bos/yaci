@@ -18,6 +18,14 @@ here is **Y**et **A**nother **C**aching **I**nterface.
 I needed a caching interface that allowed me to change or implement
 different storage backends as needed. I also wanted a caching implementation whose interface closely resembled the Python `collections.MutableMapping` interface, so that I could easily switch between dictionaries and other storage backends.
 
-## Installing
+## Installing as a `pip`
 
 To install the package run: `pip install yaci`
+
+## Developing Using Docker
+
+The docker directory contains a Dockerfile that can be used to build a docker image which can be used for development. See the README.md in the docker directory for more help.
+
+## Using Pipenv
+
+If you'd like to use Pipenv to mange this package in a development environment just run the command `pipenv install` in the top level of the repository.

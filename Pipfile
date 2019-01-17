@@ -9,6 +9,7 @@ mock = "*"
 tox = "*"
 jupyter = "*"
 pytest-cov = "*"
+twine = "*"
 
 [packages]
 six = "*"
