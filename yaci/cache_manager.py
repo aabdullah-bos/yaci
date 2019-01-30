@@ -90,3 +90,6 @@ class CacheManager(MutableMapping):
         Storage implementation for cache.
         """
         return self._storage
+
+    def close(self):
+        self.storage.close()

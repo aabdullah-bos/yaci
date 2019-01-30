@@ -61,3 +61,10 @@ class CacheStorage():
         :param key: Identifier used by storage implementaiton to retrieve value
         """
         pass
+
+    @abc.abstractmethod
+    def close(self):
+        """
+        Cleanup resources associated with storage implementation
+        """
+        pass

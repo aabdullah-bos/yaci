@@ -13,7 +13,7 @@ class DictStorage(base_storage.CacheStorage):
     memory caching implementation.
     """
 
-    def __init__(self):
+    def __init__(self, clear_cache=False):
         self._cache = dict()
 
     def get(self, key):
@@ -67,6 +67,12 @@ class DictStorage(base_storage.CacheStorage):
 
     def __iter__(self):
         return iter(self._cache)
+
+    def close(self):
+        # TODO: Consider what it means to close a storage backend
+        # implemented as a dictionary. Does it make sense to clear
+        # the dictionary?
+        pass
 
 
 class NoopDictStorage(DictStorage):
