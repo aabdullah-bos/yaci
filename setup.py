@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 
 setup(name='yaci',
-      version='0.5.0',
+      version='0.5.1',
       description='Yet Another Cache Implementation',
       author='Aquil H. Abdullah',
       author_email='aquil.abdullah@gmail.com',

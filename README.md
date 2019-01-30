@@ -2,6 +2,7 @@
 
 So you may be asking "Is there really a need for yet another cache
 implementation?" I mean we already have:
+- [functools.lru_cache (Python 3.2 or greater)](https://docs.python.org/3.7/library/functools.html#functools.lru_cache) - Decorator to wrap a function with a memoizing callable that saves up to the maxsize most recent calls.
 - the [memoize pattern](https://dbader.org/blog/python-memoization)
 - [pymemcache](https://github.com/pinterest/pymemcache) - A comprehensive, fast, pure-Python memcached client
 - [DiskCache](http://www.grantjenks.com/docs/diskcache/) - An Apache2 licensed disk and file backed cache library, written in pure-Python
