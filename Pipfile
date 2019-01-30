@@ -10,6 +10,7 @@ tox = "*"
 jupyter = "*"
 pytest-cov = "*"
 twine = "*"
+marshmallow = "*"
 
 [packages]
 six = "*"
