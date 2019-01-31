@@ -56,3 +56,6 @@ target/
 
 # PyCharm
 .idea
+
+# Jupter Checkpoints
+*.ipynb_checkpoints*
