@@ -6,6 +6,7 @@ sudo: false
 python:
   - 2.7
   - 3.7
+dist: xenial  # Required because there is no 3.7 archive
 
 install:
 - pip install .[all]
