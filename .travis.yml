@@ -1,0 +1,15 @@
+language: python
+
+# sudo false implies containerized builds
+sudo: false
+
+python:
+  - 2.7
+  - 3.7
+
+install:
+- pip install .[all]
+- pip install tox-travis
+
+script:
+- tox
