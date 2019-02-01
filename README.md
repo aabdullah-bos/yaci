@@ -1,5 +1,7 @@
 # Yet Another Cache Implementation
 
+[![Build Status](https://travis-ci.com/aabdullah-bos/yaci.svg?branch=master)](https://travis-ci.com/aabdullah-bos/yaci)
+
 So you may be asking "Is there really a need for yet another cache
 implementation?" I mean we already have:
 - [functools.lru_cache (Python 3.2 or greater)](https://docs.python.org/3.7/library/functools.html#functools.lru_cache) - Decorator to wrap a function with a memoizing callable that saves up to the maxsize most recent calls.
